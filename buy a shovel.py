@@ -1,0 +1,8 @@
+k,r = map(int, input().split())
+for i in range(1,10):
+    if k * i % 10 == r:
+        print(i)
+        break
+    elif k * i % 10 == 0:
+        print(i)
+        break
